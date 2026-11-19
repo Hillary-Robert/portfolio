@@ -2,6 +2,8 @@
 
 **Live site: [hillary-robert.netlify.app](https://hillary-robert.netlify.app)**
 
+![Portfolio preview](preview.gif)
+
 My personal portfolio: a one-page site with a loud, poster-style design and a lot of motion, built with plain HTML, CSS and JavaScript. It has no frameworks, no build step and no animation libraries.
 
 I'm a full-stack developer in Kuopio, Finland, finishing a B.Sc. in IT at the University of Eastern Finland (April 2027). I work with React, TypeScript, Node.js, Python/Django and data processing in Python.
