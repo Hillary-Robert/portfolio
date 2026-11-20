@@ -17,6 +17,12 @@
   };
   const arts = [
     (r) => {
+      let o = `<rect width="300" height="220" fill="${C.k}"/>`;
+      for (let i = 0; i < 9; i++)
+        o += `<line x1="80" y1="110" x2="220" y2="${30 + i * 20}" stroke="${i % 3 ? C.l : C.t}" stroke-width="2"/>`;
+      return o + `<circle cx="80" cy="110" r="30" fill="${C.t}"/><circle cx="220" cy="110" r="22" fill="${C.w}"/>`;
+    },
+    (r) => {
       let o = `<rect width="300" height="220" fill="${C.b}"/>`;
       for (let i = 9; i > 0; i--)
         o += `<circle cx="${150 + i * 6}" cy="${110 - i * 3}" r="${i * 17}" fill="${i % 2 ? C.t : C.b}"/>`;
